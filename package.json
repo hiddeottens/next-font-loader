@@ -1,0 +1,19 @@
+{
+  "name": "font-loader",
+  "version": "1.0.0",
+  "description": "Load fonts for Vercel API pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "fonts",
+    "loader"
+  ],
+  "author": "Hidde Ottens",
+  "license": "ISC",
+  "dependencies": {
+    "node-fs-extra": "^0.8.2"
+  },
+  "files": ["*"]
+}
