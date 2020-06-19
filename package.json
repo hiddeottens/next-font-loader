@@ -1,7 +1,7 @@
 {
-  "name": "font-loader",
+  "name": "next-font-loader",
   "version": "1.0.0",
-  "description": "Load fonts for Vercel API pages",
+  "description": "Load fonts for Next.js API pages",
   "main": "index.js",
   "scripts": {
     "test": "test"
@@ -15,5 +15,8 @@
   "dependencies": {
     "node-fs-extra": "^0.8.2"
   },
-  "files": ["*"]
+  "files": [
+    "*"
+  ],
+  "devDependencies": {}
 }
