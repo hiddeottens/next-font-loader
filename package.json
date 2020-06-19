@@ -4,7 +4,7 @@
   "description": "Load fonts for Next.js API pages",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo no test available"
   },
   "keywords": [
     "fonts",
