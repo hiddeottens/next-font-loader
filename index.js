@@ -13,5 +13,5 @@ function loadFonts() {
 }
 
 module.exports = {
-  loadFonts
+  loadFonts: loadFonts
 };
