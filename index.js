@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 
 function loadFonts() {
     return new Promise((reject, resolve) => {
-        fs.copy('/node_modules/font-loader/fonts', '/tmp/fonts', err => {
+        fs.copy('/fonts', '/tmp/fonts', err => {
             if (err) {
               reject(err);
             } else {
