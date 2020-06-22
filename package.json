@@ -1,6 +1,6 @@
 {
   "name": "next-font-loader",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Load fonts for Next.js API pages",
   "main": "index.js",
   "scripts": {
