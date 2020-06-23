@@ -2,7 +2,7 @@ const fs = require('node-fs-extra');
 const path = require('path');
 
 function loadFonts() {
-    const modulePath = require.resolve('next-font-loader');
+    const modulePath = path.dirname(require.resolve('next-font-loader'));
     return new Promise((resolve, reject) => {
         fs.copy(`${modulePath}/fonts`, '/tmp', err => {
             if (err) {
