@@ -4,7 +4,7 @@ const path = require('path');
 function loadFonts() {
     const modulePath = path.dirname(require.resolve('next-font-loader'));
     const fontPath = `${modulePath}/fonts`;
-    const tmpPath = path.join(process.cwd(), '/tmp');
+    const tmpPath = '/tmp/';
 
     return new Promise((resolve, reject) => {
         fs.copy(fontPath, tmpPath, err => {
